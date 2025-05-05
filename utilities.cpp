@@ -115,4 +115,5 @@ void mooredijkstra(double *c[], double d[], int n, int s)
 		else
 			d[i] = 0; // aucun chemin
 	}
+	d[s] = 0; 
 }
